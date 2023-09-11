@@ -1,0 +1,30 @@
+//EXERCICIO 1:
+// function calculadora(num1, num2) {
+//     return num1 * num2
+// }
+// console.log(
+//     calculadora(
+//         Number(prompt('Insira um número.')),
+//         Number(prompt('Agora, insira outro número.'))
+//     )
+// );
+//----------------------------------------------------------------
+
+//EXERCICIO 2:
+// function calcularMedia(numeros) {
+//     return numeros.reduce((a, b) => a+b, 0) / 3;
+// }
+// const numeros = [7, 6, 7];
+// const media = calcularMedia(numeros);
+// console.log('A média é:', media);
+//----------------------------------------------------------------
+
+//EXERCICIO 3:
+// let texto = prompt('insira uma frase');
+// let reverso = texto.toString().split('').reverse().join('');
+// if(texto === reverso) {
+//     console.log('true')
+// } else {
+//     console.log('false')
+// }
+//n dava pra usar return com booleano teve q ser assim :clownface:
